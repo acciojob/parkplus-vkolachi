@@ -17,7 +17,7 @@ import java.util.List;
 @Builder
 public class Spot {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     int id;
 
     @Enumerated(EnumType.STRING)
